@@ -1,0 +1,219 @@
+<!doctype html>
+ 
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    
+    <title>旧暦を覚える</title>
+    <meta name="description" content="旧暦を覚えるやつ" />
+    
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>.main-koyomi td {
+  border: 2px solid #fff;
+}</style>
+  </head>
+  <body>
+    <div>
+      <div>
+        <table class="table main-koyomi table-pin-rows table-pin-cols overflow-x-scroll">
+          <thead>
+            <tr>
+              <th></th>
+              <th>季節</th>
+              <th>月の異名</th>
+              <th>二十四節気</th>
+              <th>現在の日付</th>
+              <th>意味</th>
+           </tr>
+         </thead>
+          <tbody>
+            <tr>
+              <th rowspan="2">1月</th>
+              <td rowspan="6" class="sheet">春</td>
+              <td rowspan="2" class="sheet">睦月 (むつき)</td>
+              <td class="sheet">立春 (りっしゅん)</td>
+              <td class="sheet">02/04</td>
+              <td class="sheet">春が始まる</td>
+           </tr>
+            <tr>
+              <td class="sheet">雨水 (うすい)</td>
+              <td class="sheet">02/19</td>
+              <td class="sheet">雪が雨に変わる</td>
+           </tr>
+            <tr>
+              <th rowspan="2">2月</th>
+              <td class="sheet" rowspan="2">如月 (きさらぎ)</td>
+              <td class="sheet">啓蟄 (けいちつ)</td>
+              <td class="sheet">03/06</td>
+              <td class="sheet">冬眠が終わる</td>
+           </tr>
+            <tr>
+              <td class="sheet">春分 (しゅんぶん)</td>
+              <td class="sheet">03/31</td>
+              <td class="sheet">昼と夜の長さが同じ</td>
+           </tr>
+            <tr>
+              <th rowspan="2">3月</th>
+              <td class="sheet" rowspan="2">弥生 (やよい)</td>
+              <td class="sheet">清明 (せいめい)</td>
+              <td class="sheet">04/05</td>
+              <td class="sheet">動植物が生き生きとする</td>
+           </tr>
+            <tr>
+              <td class="sheet">穀雨 (こくう)</td>
+              <td class="sheet">04/20</td>
+              <td class="sheet">めぐみの雨</td>
+           </tr>
+            <tr>
+              <th rowspan="2">4月</th>
+              <td class="sheet" rowspan="6">夏</td>
+              <td class="sheet" rowspan="2">卯月 (うづき)</td>
+              <td class="sheet">立夏 (りっか)</td>
+              <td class="sheet">05/06</td>
+              <td class="sheet">夏が始まる</td>
+           </tr>
+            <tr>
+              <td class="sheet">小満 (しょうまん)</td>
+              <td class="sheet">05/21</td>
+              <td class="sheet">草木が成長</td>
+           </tr>
+            <tr>
+              <th rowspan="2">5月</th>
+              <td class="sheet" rowspan="2">皐月 (さつき)</td>
+              <td class="sheet">芒種 (ぼうしゅ)</td>
+              <td class="sheet">06/06</td>
+              <td class="sheet">種まきの時期</td>
+           </tr>
+            <tr>
+              <td class="sheet">夏至 (げし)</td>
+              <td class="sheet">06/21</td>
+              <td class="sheet">一年で一番昼が長い</td>
+           </tr>
+            <tr>
+              <th rowspan="2">6月</th>
+              <td class="sheet" rowspan="2">水無月 (みなづき)</td>
+              <td class="sheet">小暑 (しょうしょ)</td>
+              <td class="sheet">07/07</td>
+              <td class="sheet">少し暑くなる</td>
+           </tr>
+            <tr>
+              <td class="sheet">大暑 (たいしょ)</td>
+              <td class="sheet">07/23</td>
+              <td class="sheet">本格的な暑さ</td>
+           </tr>
+            <tr>
+              <th rowspan="2">7月</th>
+              <td class="sheet" rowspan="6">秋</td>
+              <td class="sheet" rowspan="2">文月 (ふみづき)</td>
+              <td class="sheet">立秋 (りっしゅう)</td>
+              <td class="sheet">08/08</td>
+              <td class="sheet">秋が始まる</td>
+           </tr>
+            <tr>
+              <td class="sheet">処暑 (しょしょ)</td>
+              <td class="sheet">08/23</td>
+              <td class="sheet">暑さが治る</td>
+           </tr>
+            <tr>
+              <th rowspan="2">8月</th>
+              <td class="sheet" rowspan="2">葉月 (はづき)</td>
+              <td class="sheet">白露 (はくろ)</td>
+              <td class="sheet">09/08</td>
+              <td class="sheet">草木に霜がつく</td>
+           </tr>
+            <tr>
+              <td class="sheet">秋分 (しゅうぶん)</td>
+              <td class="sheet">09/23</td>
+              <td class="sheet">昼と夜の長さが同じ</td>
+           </tr>
+            <tr>
+              <th rowspan="2">9月</th>
+              <td class="sheet" rowspan="2">長月 (ながつき)</td>
+              <td class="sheet">寒露 (かんろ)</td>
+              <td class="sheet">10/08</td>
+              <td class="sheet">つめたい霜がつく</td>
+           </tr>
+            <tr>
+              <td class="sheet">霜降 (そうこう)</td>
+              <td class="sheet">10/23</td>
+              <td class="sheet">霜が降りる</td>
+           </tr>
+            <tr>
+              <th rowspan="2">10月</th>
+              <td class="sheet" rowspan="6">冬</td>
+              <td class="sheet" rowspan="2">神無月 (かんなづき)</td>
+              <td class="sheet">立冬 (りっとう)</td>
+              <td class="sheet">11/09</td>
+              <td class="sheet">冬が始まる</td>
+           </tr>
+            <tr>
+              <td class="sheet">小雪 (しょうせつ)</td>
+              <td class="sheet">11/12</td>
+              <td class="sheet">初雪</td>
+           </tr>
+            <tr>
+              <th rowspan="2">11月</th>
+              <td class="sheet" rowspan="2">霜月 (しもつき)</td>
+              <td class="sheet">大雪 (たいせつ)</td>
+              <td class="sheet">12/07</td>
+              <td class="sheet">本格的な雪</td>
+           </tr>
+            <tr>
+              <td class="sheet">冬至 (とうじ)</td>
+              <td class="sheet">12/22</td>
+              <td class="sheet">一年で一番昼が長い</td>
+           </tr>
+            <tr>
+              <th rowspan="2">12月</th>
+              <td class="sheet" rowspan="2">師走 (しわす)</td>
+              <td class="sheet">小寒 (しょうかん)</td>
+              <td class="sheet">01/05</td>
+              <td class="sheet">寒さが増す</td>
+           </tr>
+            <tr>
+              <td class="sheet">大寒 (だいかん)</td>
+              <td class="sheet">01/20</td>
+              <td class="sheet">一年で一番寒い</td>
+           </tr>
+         </tbody>
+        </table>
+      </div>
+      <button onclick="allToggle()" class="btn sticky bottom-0 left-0 z-10">
+        全て隠す/表示する
+      </button>
+    </div>
+    <script>const $sheet = document.getElementsByClassName("sheet");
+const reset = (element) => {
+    if (element.dataset.isHide === "true") {
+      element.classList.add("bg-red-400");
+      element.classList.add("text-transparent");
+      element.classList.remove("bg-red-100");
+    } else {
+      element.classList.remove("text-transparent");
+      element.classList.remove("bg-red-400");
+      element.classList.add("bg-red-100");
+    }
+  };
+
+for (const element of $sheet) {
+  element.dataset.isHide = true;
+  reset(element);
+  element.addEventListener("click", () => {
+    element.dataset.isHide = element.dataset.isHide !== "true";
+    reset(element);
+  });
+}
+let allShowData = false;
+function allToggle () {
+  allShowData = !allShowData;
+  for (const element of $sheet) {
+    element.dataset.isHide = allShowData;
+    reset(element);
+  }
+}</script>
+  </body>
+</html>
+
